@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREMIER</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2>PREMIER FINANCIAL BANK </h2>
+    </header>
+
+    <nav>
+        <ul>
+
+            <li><a href="#home">Home</a> </li>
+            <li> <a href="goals">Goals</a> </li>
+            <li> <a href="transactions">Transactions</a> </li>
+            <li> <a href="contacts">Contacts</a> </li>
+
+        </ul>
+    </nav>
+<!-- ____________________home_________________ -->
+<section id="home">
+    <div id="Home">
+        <h1>Your Trusted Partner <br> for Secure Savings <br> <span> & Smart Investment!</span></h1>
+        <hr>
+            <p>Discover the Power of Financial Freedom with Premier Financial Bank.</p>
+    </div>
+</section>
+
+    <!--______________goal____________-->
+    <section id="goals">
+    <div class="goal-container">
+        <h2>Create a New Goal</h2>
+        <div class="goal" id="new-goal">
+            <label for="new-goal-name">Goal Name:</label>
+            <input type="text" id="new-goal-name" required>
+            <label for="new-goal-amount">Amount:</label>
+            <input type="number" id="new-goal-amount" required>
+            <div class="goal-buttons">
+                <button onclick="createGoal()">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="goal-container">
+        <h2>Savings Goals</h2>
+        <div id="goal-list"></div>
+    </div>
+</section>
+  
+
+<!-- _______________transactions_____________________ -->
+<section id="transactions">
+    <div class="transaction-form">
+        <h2>Add a New Transaction</h2>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="income">Income</option>
+            <option value="expenses">Expenses</option>
+        </select>
+        <label for="notes">Notes:</label>
+        <textarea id="notes"></textarea>
+        <button onclick="addTransaction()">Add Transaction</button>
+    </div>
+
+    <div id="transaction-list"></div>
+</section>
+
+<!-- _________________contacts__________________ -->
+<section id="contact" class="contact bg-secondary py-3">
+    <h2 class="text-center">Subscribe To Our Newsletter</h2>
+    <p class="text-center"></p>
+    <div class="wrapper">
+        <form class="text-center">
+            <input type="email" name="email" id="email" placeholder="Enter Email Address">
+            <button class="button">Submit</button>
+        </form>
+    </div>
+</section>
+
+</body>
+
+</html>
