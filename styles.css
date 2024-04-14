@@ -241,6 +241,7 @@ button {
 
 * {box-sizing: border-box}
 
+
   input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -258,18 +259,20 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 button {
-  background-color: #04AA6D;
+ 
+  background-color: #287094;
   color: white;
-  padding: 14px 20px;
-  
+  padding: 14px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   width: 100%;
  
+ 
 }
 
 button:hover {
-  opacity:1;
+    background-color: #04AA6D;
 }
 
 
