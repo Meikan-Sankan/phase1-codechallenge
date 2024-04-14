@@ -1,7 +1,7 @@
 
 # PREMIER FINANCIAL BANK
 
-#### Date, 14/04/2024
+#### Date 14/04/2024
 
 #### By *Gabriella Pendo*
 
@@ -34,4 +34,4 @@ https://github.com/Gabriellapendo7
 
 ### License
 The content of this site is licensed under the MIT license
-Copyright (c) 2018.
+Copyright (c) 2018
