@@ -6,7 +6,7 @@
 #### By *Gabriella Pendo*
 
 ## Description
-yhis program facilitates users in allocating their funds into designated goals, addressing the challenge of pooling all savings into a single account.
+
 
 # Project setup instructions 
 1. Fork the Repository:
